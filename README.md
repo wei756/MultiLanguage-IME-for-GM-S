@@ -10,9 +10,9 @@ MultiLanguage IME for GM:S 1.4 by MK
 
 ### 그외의 기능 
 
-:```keyboard_string```을 ```kor_string```로 대체합니다.</br>
-:화살표 키로 커서 이동이 가능합니다.</br>
-:커서를 이동하여 문장 중간에 글자를 입력할 수 있습니다.</br>
+> ```keyboard_string```을 ```kor_string```로 대체합니다.</br>
+> 화살표 키로 커서 이동이 가능합니다.</br>
+> 커서를 이동하여 문장 중간에 글자를 입력할 수 있습니다.</br>
 
 
 ### 지원 자판
@@ -24,9 +24,11 @@ MultiLanguage IME for GM:S 1.4 by MK
 
 It can make non-english character input in a gamemaker project.
 
-:Replace ```keyboard_string``` with ```kor_string``` that can input non-english character</br>
-:Scorll with arrow keys</br>
-:Insert a text in the middle of the string</br>
+### Features
+
+> Replace ```keyboard_string``` with ```kor_string``` that can input non-english character</br>
+> Scorll with arrow keys</br>
+> Insert a text in the middle of the string</br>
 
 
 ### Supported character system
