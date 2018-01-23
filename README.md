@@ -10,9 +10,9 @@ MultiLanguage IME for GM:S 1.4 by MK
 
 -그외의 기능 
 
-:```keyboard_string```을 ```kor_string```로 대체합니다.<p>
-:화살표 키로 커서 이동이 가능합니다.<p>
-:커서를 이동하여 문장 중간에 글자를 입력할 수 있습니다.<p>
+:```keyboard_string```을 ```kor_string```로 대체합니다.</br>
+:화살표 키로 커서 이동이 가능합니다.</br>
+:커서를 이동하여 문장 중간에 글자를 입력할 수 있습니다.</br>
 
 
 -지원 자판
