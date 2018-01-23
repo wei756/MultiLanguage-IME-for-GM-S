@@ -1,4 +1,4 @@
-# MultiLanguage-IME-for-GM-S
+# MultiLanguage IME for GameMaker:Studio 1.4
 MultiLanguage IME for GM:S 1.4 by MK
 
 ![WOWW](https://github.com/w4ei756fg/MultiLanguage-IME-for-GM-S/blob/master/screenshot1.PNG)
@@ -8,14 +8,14 @@ MultiLanguage IME for GM:S 1.4 by MK
 # What's this?
 로마자 이외의 문자를 게임메이커 프로젝트 내에서 입력하는 ```keyboard_string``` 변수를 대체하는 스크립트를 추가합니다.
 
--그외의 기능 
+### 그외의 기능 
 
 :```keyboard_string```을 ```kor_string```로 대체합니다.</br>
 :화살표 키로 커서 이동이 가능합니다.</br>
 :커서를 이동하여 문장 중간에 글자를 입력할 수 있습니다.</br>
 
 
--지원 자판
+### 지원 자판
 
 한글(Hangul) - 두벌식 표준</br>
 영어(English) - US 배열 쿼티
@@ -29,7 +29,7 @@ It can make non-english character input in a gamemaker project.
 :Insert a text in the middle of the string</br>
 
 
--Supported character system
+### Supported character system
 
 Korean(Hangul) - 2beol-sik standard</br>
 English(US) - Qwerty
@@ -37,12 +37,11 @@ English(US) - Qwerty
 
 
 
-
 # Quick references
 
-사용할 때 영어가 입력되는 상태로 놓으세요.
-<p>
-<변수>
+사용할 때 영어가 입력되는 상태로 놓으세요.<p>
+
+### 변수
 
 ```kor_string``` : keyboard_string을 대체합니다. 입력한 값이 여기에 저장됩니다.</br>
 ```kor_cursor``` : kor_string에서 커서 위치를 나타냅니다.</br>
@@ -51,9 +50,9 @@ English(US) - Qwerty
 실제로 출력값을 뽑아낼 때는 kor_string + text_eng_to_hangul(kor_buffer)을 사용해야 합니다.</br>
 ```kor_mode``` : 현재 입력 언어를 저장합니다.</br>
 ```kor_longpress``` : 키보드를 길게 눌렀을 때 반복입력되는 딜레이를 설정합니다.(단위:ms, 기본값 500ms)</br>
-```kor_keyHan``` : 한영 전환용 키를 지정합니다. (기본값: vk_control)
-<p>
-<함수>
+```kor_keyHan``` : 한영 전환용 키를 지정합니다. (기본값: vk_control)<p>
+
+### 함수
 
 ```ime_init()``` : 입력기 사용을 위한 변수 등을 초기화합니다. Create 이벤트에 넣습니다.</br>
 ```kor_init()``` : 한글 입력을 위한 변수를 초기화합니다. Create 이벤트에 넣습니다.</br>
